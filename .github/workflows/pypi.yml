@@ -6,6 +6,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@master
+      
       - name: Poetry - publish to PyPi
         uses: JRubics/poetry-publish@v1.16
         with:
