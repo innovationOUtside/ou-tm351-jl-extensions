@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ou-tm351-jl-extensions"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["Tony Hirst <tony.hirst@gmail.com>"]
 readme = "README.md"
@@ -24,9 +24,6 @@ jupyter-resource-usage = "^0.7.2"
 stickyland = "^0.2.1"
 jupyterlab-tour = "^3.1.4"
 jupyter-compare-view = "^0.2.4"
-jupyterlab-code-snippets = "^2.2.1"
-jupyterlab-templates = "^0.4.0"
-jupyterlab-filesystem-access = "^0.5.3"
 
 
 [build-system]
