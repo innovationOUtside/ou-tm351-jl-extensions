@@ -1,12 +1,12 @@
-- name: Build and publish to pypi
-  on:
-    workflow_dispatch:
+name: Build and publish to pypi
+on:
+  workflow_dispatch:
   
-  jobs:
-    build:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Poetry - publish to PyPi
-          uses: JRubics/poetry-publish@v1.16
-          with:
-            pypi_token: ${{ secrets.PYPI_TOKEN }}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Poetry - publish to PyPi
+        uses: JRubics/poetry-publish@v1.16
+        with:
+          pypi_token: ${{ secrets.PYPI_TOKEN }}
