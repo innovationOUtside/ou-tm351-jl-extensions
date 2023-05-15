@@ -24,6 +24,7 @@ jupyter-resource-usage = "^0.7.2"
 stickyland = "^0.2.1"
 jupyterlab-tour = "^3.1.4"
 jupyter-compare-view = "^0.2.4"
+jupyterlab-filesystem-access = "^0.5.3"
 
 
 [build-system]
