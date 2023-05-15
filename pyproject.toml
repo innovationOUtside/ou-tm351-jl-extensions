@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ou-tm351-jl-extensions"
-version = "0.1.1"
+version = "0.1.2"
 description = ""
 authors = ["Tony Hirst <tony.hirst@gmail.com>"]
 readme = "README.md"
