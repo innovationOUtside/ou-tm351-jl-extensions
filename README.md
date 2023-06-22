@@ -1,9 +1,9 @@
 # ou-tm351-jl-extensions
 
-Install:
+Install from pyoi as `ou-tm351-jl-extensions`
 
-JupyterLab 3: v0.1.2
-JupyterLab 4: v 0.2.0
+- JupyterLab 3: v0.1.2
+- JupyterLab 4: v 0.2.0
 
 Recommended JupyterLab extensions for use in the OU TM351 module.
 
