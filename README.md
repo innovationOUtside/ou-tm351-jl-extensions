@@ -17,4 +17,8 @@ import ou_tm351_jl_extensions as ou
 ou.check_install()
 ```
 
+__Maintenance__
+
+Update packages in `pyproject.toml` by running: `poetry update`
+
 __Formal tests for use in CI will be added soon.__
