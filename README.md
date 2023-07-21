@@ -22,7 +22,7 @@ jupyterlab-skip-traceback = "^5.0.0"
 jupyterlab-git = "^0.41.0"
 jupytext = "^1.14.5"
 jupyter-archive = "^3.3.4"
-#jupyterlab-spellchecker = "^0.7.3"
+jupyterlab-spellchecker = "^0.8.3"
 jupyterlab-language-pack-fr-fr = "^3.6.post1"
 jupyterlab-language-pack-zh-cn = "^3.6.post1"
 jupyter-resource-usage = "^0.7.2"
@@ -32,10 +32,7 @@ jupyter-compare-view = "^0.2.4"
 jupyterlab-filesystem-access = "^0.5.3"
 ```
 
-*NB jupyterlab-spellchecker appears to be broken atm in JL4; [related issue](https://github.com/jupyterlab-contrib/spellchecker/issues/127)*
-
 Check the installation by running:
-
 
 ```python
 import ou_tm351_jl_extensions as ou

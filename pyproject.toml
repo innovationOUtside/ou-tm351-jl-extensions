@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ou-tm351-jl-extensions"
-version = "0.2.1"
+version = "0.2.2"
 description = ""
 authors = ["Tony Hirst <tony.hirst@gmail.com>"]
 readme = "README.md"
@@ -18,7 +18,7 @@ jupyterlab-skip-traceback = "^5.0.0"
 jupyterlab-git = "^0.41.0"
 jupytext = "^1.14.5"
 jupyter-archive = "^3.3.4"
-#jupyterlab-spellchecker = "^0.7.3"
+jupyterlab-spellchecker = "^0.8.3"
 jupyterlab-language-pack-fr-fr = "^3.6.post1"
 jupyterlab-language-pack-zh-cn = "^3.6.post1"
 jupyter-resource-usage = "^0.7.2"
