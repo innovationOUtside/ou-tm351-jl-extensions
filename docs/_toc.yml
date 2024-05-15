@@ -9,3 +9,7 @@ parts:
 - caption: Settings
   chapters:
   - file: improved-default-settings
+  - file: settings-apputils
+  - file: settings-codemirror
+  - file: settings-toc
+  - file: settings-skip-traceback

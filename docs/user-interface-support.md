@@ -12,7 +12,7 @@ The package bundles a variety of extensions that are intended to provided an imp
 
 - `jupyterlab-empinken-extension = "^0.5.0"`[[repo](https://github.com/innovationOUtside/jupyterlab_empinken_extension)]: adds the ability to colour the cell background using configurable cell tags;  also provides optional toolbar buttons for tagging selected cells appropriately; 
 
-- `jupyterlab-skip-traceback = "^5.1.0"` (for use with Python notebook kernel) [[repo](https://github.com/deshaw/jupyterlab-skip-traceback)]: allow Python error reports to be displayed in a collapsed view when a run cell generates an error;
+- `jupyterlab-skip-traceback = "^5.1.0"` (for use with Python notebook kernel) [[repo](https://github.com/deshaw/jupyterlab-skip-traceback)]: allow Python error reports to be displayed in a collapsed view when a run cell generates an error; *note that this extension has suboptimal default settings; see elsewhere for recommended settings.*
 
 - `jupyterlab-myst = "^2.4.0"` [[repo](https://github.com/executablebooks/jupyterlab-myst)]: adds MyST markdow parser support for markdown cells to enable richer styling of markdown content;
 
