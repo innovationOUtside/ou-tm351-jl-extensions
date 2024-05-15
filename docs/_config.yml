@@ -1,4 +1,4 @@
-title: Middle English Romances
+title: OU TM351 JupyterLab Customisation
 author: Tony Hirst
 copyright: "2024" 
 only_build_toc_files: true
@@ -12,5 +12,3 @@ parse:
 sphinx:
   config:
     html_copy_source: false
-  extra_extensions:
-    - sphinxcontrib.youtube
