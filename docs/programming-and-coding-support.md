@@ -1,6 +1,6 @@
 # Programming and Coding Support
 
-The following extensions are installed to support code development.
+The following extensions are installed to support code development in notebook code cells.
 
 ## Execution monitoring
 
