@@ -5,7 +5,7 @@ parts:
   chapters:
   - file: user-interface-support
   - file: file-handling-support
-  - file: prtogramming-and-coding-support
+  - file: programming-and-coding-support
 - caption: Settings
   chapters:
   - file: improved-default-settings
