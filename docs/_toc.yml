@@ -1,0 +1,11 @@
+format: jb-book
+root: overview
+parts:
+- caption: Extensions
+  chapters:
+  - file: user-interface-support
+  - file: file-handling-support
+  - file: prtogramming-and-coding-support
+- caption: Settings
+  chapters:
+  - file: improved-default-settings

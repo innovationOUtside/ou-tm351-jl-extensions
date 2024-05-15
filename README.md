@@ -12,25 +12,45 @@ This package will install several JupyterLab extensions that brand and extend a 
 Extensions installed:
 
 ```text
-jupyterlab = "^4.0.1"
-jupyterlab-ou-brand-extension = "^0.2.0"
-jupyterlab-cell-status-extension = "^0.1.3"
-jupyterlab-myst = "^1.1.3"
-jupyterlab-empinken-extension = "^0.4.0"
-jupyterlab-geojson = "^3.3.1"
-jupyterlab-skip-traceback = "^5.0.0"
-jupyterlab-git = "^0.41.0"
-jupytext = "^1.14.5"
-jupyter-archive = "^3.3.4"
-jupyterlab-spellchecker = "^0.8.3"
-jupyterlab-language-pack-fr-fr = "^3.6.post1"
-jupyterlab-language-pack-zh-cn = "^3.6.post1"
-jupyter-resource-usage = "^0.7.2"
-stickyland = "^0.2.1"
-#jupyterlab-tour = "^3.1.4"
-jupyter-compare-view = "^0.2.4"
-jupyterlab-filesystem-access = "^0.5.3"
+jupyterlab = ">=4.1"
+
+# Branding and OU extensions
+jupyterlab-ou-brand-extension = "^0.2.0" # OU brand extension (favicon, logo)
+
+# Notebook cell tools
+jupyterlab-cell-status-extension = "^0.2.2" # cell execution status; accessibility tools
+jupyterlab-empinken-extension = "^0.5.2" # cell background styling
+jupyterlab-skip-traceback = "^5.1.0" # skip trackeback / error reporting
+jupyterlab-myst = "^2.4.0" ## MyST parser and styling (markdown cells)
+jupyterlab-spellchecker = "^0.8.4" ## Spellchecker
+
+# Code support
+#jupyterlab-lsp = "^5.1.0" # language server protocol
+jupyterlab-code-formatter = "^2.2.1" # Code formatter
+black = "^24.4.2" # code formatting
+isort = "^5.13.2" # code formatting
+
+# Language packs
+jupyterlab-language-pack-fr-fr = "^4.1.post2" # French
+jupyterlab-language-pack-zh-cn = "^4.1.post2" # Chinese
+
+# File browsing and handling
+jupyterlab-unfold = "^0.3.0" # tree view in files sidebar
+jupyter-archive = "^3.4.0" # archive file download
+jupyterlab-filesystem-access = "^0.6.0" # local filesystem access
+jupyterlab-git = "^0.50.0" # Git/Github tools
+jupytext = "^1.16.0" # text notebook formats
+
+# Renderers
+jupyterlab-geojson = "^3.3.1" # geojson renderer
+jupyter-compare-view = "^0.2.4" # compare images
+
+# Resource monitoring
+jupyter-resource-usage = "^1.0.2" # memory/CPU
+jupyterlab_execute_time = "^3.1.2" # cell execution time
 ```
+
+See the [docs]().
 
 Check the installation by running:
 
