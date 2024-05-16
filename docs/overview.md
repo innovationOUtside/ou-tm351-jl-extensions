@@ -2,7 +2,7 @@
 
 This package proivides a set of package requirements that can be used to install a selection of JupyterLab extensions into a Jupyterlab environment. *A simple test function is also provided to check packages are installed.*
 
-*NOTE that this extensions should be installed into the Python environment that runs the JupyterLab server. This may NOT be the environment served by any of the Jupyter kernels.*
+*NOTE that this extension should be installed into the Python environment that runs the JupyterLab server. This may NOT be the environment served by any of the Jupyter kernels.*
 
 The extensions have been selected to enhance a JupyterLab environment used to support the delivery of a distance education higher education module on database management and analysis.
 
