@@ -46,7 +46,7 @@ jupyterlab-geojson = "^3.3.1" # geojson renderer
 jupyter-compare-view = "^0.2.4" # compare images
 
 # Resource monitoring
-jupyter-resource-usage = "^1.0.2" # memory/CPU
+#jupyter-resource-usage = "^1.0.2" # memory/CPU
 jupyterlab_execute_time = "^3.1.2" # cell execution time
 ```
 

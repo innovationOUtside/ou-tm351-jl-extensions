@@ -48,7 +48,3 @@ Colours can be set via extensions preferences.
 
 
 - `jupyterlab-spellchecker = "^0.8.4"` [[repo](https://github.com/jupyterlab-contrib/spellchecker)]: spellchecker; the config file also supports the inclusion of additional dictionary terms.
-
-## Resource monitoring
-
-- `jupyter-resource-usage = "^1.0.2"` [[repo](https://github.com/jupyter-server/jupyter-resource-usage)]: provided status reports on memory and CPU usage.
