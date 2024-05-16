@@ -1,17 +1,21 @@
 [tool.poetry]
 name = "ou-tm351-jl-extensions"
-version = "0.2.7"
+version = "0.2.8"
 description = ""
 authors = ["Tony Hirst <tony.hirst@gmail.com>"]
 readme = "README.md"
 packages = [{include = "ou_tm351_jl_extensions"}]
+
+
+[project.urls]
+repository = "https://github.com/innovationOUtside/jupyterlab_cell_status_extension"
 
 [tool.poetry.dependencies]
 python = ">=3.8,<3.13"
 jupyterlab = ">=4.1"
 
 # Branding and OU extensions
-jupyterlab-ou-brand-extension = "^0.2.0" # OU brand extension (favicon, logo)
+jupyterlab-ou-brand-extension = "^0.2.3" # OU brand extension (favicon, logo)
 
 # Notebook cell tools
 jupyterlab-cell-status-extension = "^0.2.2" # cell execution status; accessibility tools
@@ -42,7 +46,7 @@ jupyterlab-geojson = "^3.3.1" # geojson renderer
 jupyter-compare-view = "^0.2.4" # compare images
 
 # Resource monitoring
-jupyter-resource-usage = "^1.0.2" # memory/CPU
+# jupyter-resource-usage = "^1.0.2" # memory/CPU
 jupyterlab_execute_time = "^3.1.2" # cell execution time
 
 # Misc, evaluation, etc
