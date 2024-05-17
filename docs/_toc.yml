@@ -13,3 +13,4 @@ parts:
   - file: settings-codemirror
   - file: settings-toc
   - file: settings-skip-traceback
+  - file: settings-execute-time
