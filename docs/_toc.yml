@@ -14,3 +14,7 @@ parts:
   - file: settings-toc
   - file: settings-skip-traceback
   - file: settings-execute-time
+- caption: Development / Advanced
+  chapters:
+  - file: accessing-vce-as-root
+  - file: managing-extensions-on-command-line
