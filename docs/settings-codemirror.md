@@ -1,4 +1,4 @@
-# Editor (markdown and code editorm, CodeMirror, etc.) settings
+# Editor (markdown and code editors, CodeMirror, etc.) settings
 
 The default behaviour in the code and markdown cell editors has some annoying foibles. For example, barckaets aren't necessarily closed, highlighting text and clickig an open bracket deletes the text rather than wrapping it in brackets, etc.)
 
