@@ -17,7 +17,7 @@ The following language packs are installed by default by this package:
 
 ![Jupyterlab settings menu: settings > Language](images/jupyterlab-language.png)
 
-A wide variety of other language packas are also available: [JupytereLab language packs](https://github.com/jupyterlab/language-packs/tree/main/language-packs).
+A wide variety of other language packas are also available: [JupyterLab language packs](https://github.com/jupyterlab/language-packs/tree/main/language-packs).
 
 ## Themes
 

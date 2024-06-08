@@ -8,3 +8,5 @@ However, if the VCE container is run locally, a user may connect to the running 
 
 - start a container: `docker run --name=demoVCE VCE_IMAGE`
 - enter the running container as `root`: `docker exec --user 0 -it demoVCE /bin/bash`
+
+You should now be able to manage the JupyterLab environment and install additional Jupyterlab extensions from the command line, as well as performing Linux system adminstration functions such installing additional operating system packages, etc., as required.
