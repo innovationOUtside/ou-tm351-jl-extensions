@@ -29,7 +29,7 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
-    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
@@ -46,7 +46,7 @@
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="_static/copybutton.js?v=f281be69"></script>
-    <script src="_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
@@ -218,9 +218,9 @@
   
     <div class="header-article-items__start">
       
-        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
   <span class="fa-solid fa-bars"></span>
-</label></div>
+</button></div>
       
     </div>
   
@@ -341,18 +341,18 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="managing-jupyterlab-extensions-on-the-command-line">
 <h1>Managing JupyterLab Extensions on the Command Line<a class="headerlink" href="#managing-jupyterlab-extensions-on-the-command-line" title="Link to this heading">#</a></h1>
-<p>In the containers built using the OU container builder, the Jupyterlab environment is isolated from the notebook kernel environments.</p>
+<p>In the containers built using the OU container builder, the JupyterLab environment is isolated from the notebook kernel environments.</p>
 <p>Specifically, JupyterLab environment can accessed using the path:</p>
 <p><code class="docutils literal notranslate"><span class="pre">/var/lib/ou/python/system/bin/jupyter</span></code></p>
 <p>To view the currently installed extensions:</p>
 <p><code class="docutils literal notranslate"><span class="pre">/var/lib/ou/python/system/bin/jupyter</span> <span class="pre">labextension</span> <span class="pre">list</span></code></p>
-<p>By default in an OU VCE, the permissions with which extensions are into the JupyterLab environment as part of a system build step do not allow users to update, disable or uninstall the extension.</p>
+<p>By default in an OU VCE, the permissions with which extensions are installed into the JupyterLab environment as part of a system build step do not allow users to update, disable or uninstall the extension.</p>
 <p>For example, a user attempting to run <code class="docutils literal notranslate"><span class="pre">jupyter</span> <span class="pre">labextension</span> <span class="pre">disable</span> <span class="pre">jupyterlab-execute-time</span></code> will be greeted with a <em>Permission denied</em> error message.</p>
 <p>Users running a local VCE container have rather more flexibility and can login as <code class="docutils literal notranslate"><span class="pre">root</span></code> which gives them permissions to run <code class="docutils literal notranslate"><span class="pre">jupyter</span> <span class="pre">lab</span></code> commands from the command-line as required.</p>
 <p>The local container can also be modified to provide the user with permissions to enable/disable extensions from the JupoyterLab extensions sidebar:</p>
 <p>Looking at jupyterlab extensions, setting the following permissions (from <code class="docutils literal notranslate"><span class="pre">root</span></code>) seems to allow uses to control enabling / disabling extensions:</p>
 <p><code class="docutils literal notranslate"><span class="pre">chown</span> <span class="pre">ou:users</span> <span class="pre">/var/lib/ou/python/system/etc/jupyter/labconfig/page_config.json</span></code></p>
-<p><em>This permission setting can be built into the hosted VCE to allow students to enable/diable ectension settings during a session, but any changes the students make to the environment will not be persisted to other sessions.</em></p>
+<p><em>This permission setting can be built into the hosted VCE to allow students to enable/disable extension settings during a session, but any changes the students make to the environment will not be persisted to other sessions.</em></p>
 </section>
 
     <script type="text/x-thebe-config">

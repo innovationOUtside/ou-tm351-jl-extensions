@@ -29,7 +29,7 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
-    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
@@ -46,7 +46,7 @@
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="_static/copybutton.js?v=f281be69"></script>
-    <script src="_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
@@ -219,9 +219,9 @@
   
     <div class="header-article-items__start">
       
-        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
   <span class="fa-solid fa-bars"></span>
-</label></div>
+</button></div>
       
     </div>
   
@@ -315,9 +315,9 @@ document.write(`
   </button>
 `);
 </script>
-<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <span class="fa-solid fa-list"></span>
-</label>
+</button>
 </div></div>
       
     </div>
@@ -358,7 +358,7 @@ document.write(`
 <section id="execution-monitoring">
 <h2>Execution monitoring<a class="headerlink" href="#execution-monitoring" title="Link to this heading">#</a></h2>
 <ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">jupyterlab_execute_time</span> <span class="pre">=</span> <span class="pre">&quot;^3.1.2&quot;</span></code> [<a class="reference external" href="https://github.com/deshaw/jupyterlab-execute-time">docs</a>]: cell status report report providing the time cell was last executed, and the amount of time the cell took to execute;</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">jupyterlab_execute_time</span> <span class="pre">=</span> <span class="pre">&quot;^3.1.2&quot;</span></code> [<a class="reference external" href="https://github.com/deshaw/jupyterlab-execute-time">docs</a>]: cell status report providing the time cell was last executed, and the amount of time the cell took to execute;</p></li>
 </ul>
 <p><img alt="JupyterLab execution time : time of execution, and time taken to execute, displayed as cell output report" src="_images/jupyterlab-execute-time.png" /></p>
 </section>
@@ -366,7 +366,7 @@ document.write(`
 <h2>Code formatting<a class="headerlink" href="#code-formatting" title="Link to this heading">#</a></h2>
 <p>Various tools are included to support code formatting:</p>
 <ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">jupyterlab-code-formatter</span> <span class="pre">=</span> <span class="pre">&quot;^2.2.1&quot;</span></code> [<a class="reference external" href="https://jupyterlab-code-formatter.readthedocs.io/usage.html">docs</a>]: apply code formatting to selected cell or all cells. The exension is preconfigured to work with the following packages, which as are also pre-installed into the JupyterLab environment:</p>
+<li><p><code class="docutils literal notranslate"><span class="pre">jupyterlab-code-formatter</span> <span class="pre">=</span> <span class="pre">&quot;^2.2.1&quot;</span></code> [<a class="reference external" href="https://jupyterlab-code-formatter.readthedocs.io/usage.html">docs</a>]: apply code formatting to selected cell or all cells. The extension is preconfigured to work with the following packages, which as are also pre-installed into the JupyterLab environment:</p>
 <ul>
 <li><p><code class="docutils literal notranslate"><span class="pre">black</span> <span class="pre">=</span> <span class="pre">&quot;^24.4.2&quot;</span> <span class="pre">#</span> <span class="pre">code</span> <span class="pre">formatting</span></code></p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">isort</span> <span class="pre">=</span> <span class="pre">&quot;^5.13.2&quot;</span> <span class="pre">#</span> <span class="pre">package</span> <span class="pre">import</span> <span class="pre">sorting</span></code></p></li>
@@ -376,7 +376,7 @@ document.write(`
 </section>
 <section id="autocomplete">
 <h2>Autocomplete<a class="headerlink" href="#autocomplete" title="Link to this heading">#</a></h2>
-<p>By default, JupyterLab code cell editor includes a limited amount of tab completion support. More comprehensive support for a wide range of languages (including Python, R, and JavaScript) can be provided through the use of a langauge server.</p>
+<p>By default, JupyterLab code cell editor includes a limited amount of tab completion support. More comprehensive support for a wide range of languages (including Python, R, and JavaScript) can be provided through the use of a language server.</p>
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">jupyterlab-lsp</span> <span class="pre">=</span> <span class="pre">&quot;^5.1.0&quot;</span></code> [<a class="reference external" href="https://github.com/jupyter-lsp/jupyterlab-lsp">repo</a>]: language server protocol extension, can be used to add in code completion hints provided by a language server; <em>note that as it stands, this extension is essentially redundant as no language server is installed by default in the environment;</em></p></li>
 </ul>
