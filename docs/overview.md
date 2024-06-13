@@ -1,6 +1,6 @@
 # Overview
 
-This package proivides a set of package requirements that can be used to install a selection of JupyterLab extensions into a Jupyterlab environment. *A simple test function is also provided to check packages are installed.*
+This package provides a set of package requirements that can be used to install a selection of JupyterLab extensions into a JupyterLab environment. *A simple test function is also provided to check packages are installed.*
 
 *NOTE that this extension should be installed into the Python environment that runs the JupyterLab server. This may NOT be the environment served by any of the Jupyter kernels.*
 

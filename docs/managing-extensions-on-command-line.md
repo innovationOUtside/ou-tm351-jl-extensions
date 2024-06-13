@@ -1,6 +1,6 @@
 # Managing JupyterLab Extensions on the Command Line
 
-In the containers built using the OU container builder, the Jupyterlab environment is isolated from the notebook kernel environments.
+In the containers built using the OU container builder, the JupyterLab environment is isolated from the notebook kernel environments.
 
 Specifically, JupyterLab environment can accessed using the path:
 

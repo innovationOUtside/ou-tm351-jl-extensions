@@ -4,7 +4,7 @@ The following extensions are installed to support code development in notebook c
 
 ## Execution monitoring
 
-- `jupyterlab_execute_time = "^3.1.2"` [[docs](https://github.com/deshaw/jupyterlab-execute-time)]: cell status report report providing the time cell was last executed, and the amount of time the cell took to execute;
+- `jupyterlab_execute_time = "^3.1.2"` [[docs](https://github.com/deshaw/jupyterlab-execute-time)]: cell status report providing the time cell was last executed, and the amount of time the cell took to execute;
 
 ![JupyterLab execution time : time of execution, and time taken to execute, displayed as cell output report](images/jupyterlab-execute-time.png)
 
@@ -12,13 +12,13 @@ The following extensions are installed to support code development in notebook c
 
 Various tools are included to support code formatting:
 
-- `jupyterlab-code-formatter = "^2.2.1"` [[docs](https://jupyterlab-code-formatter.readthedocs.io/usage.html)]: apply code formatting to selected cell or all cells. The exension is preconfigured to work with the following packages, which as are also pre-installed into the JupyterLab environment:
+- `jupyterlab-code-formatter = "^2.2.1"` [[docs](https://jupyterlab-code-formatter.readthedocs.io/usage.html)]: apply code formatting to selected cell or all cells. The extension is preconfigured to work with the following packages, which as are also pre-installed into the JupyterLab environment:
   - `black = "^24.4.2" # code formatting`
   - `isort = "^5.13.2" # package import sorting`
 
 ## Autocomplete
 
-By default, JupyterLab code cell editor includes a limited amount of tab completion support. More comprehensive support for a wide range of languages (including Python, R, and JavaScript) can be provided through the use of a langauge server.
+By default, JupyterLab code cell editor includes a limited amount of tab completion support. More comprehensive support for a wide range of languages (including Python, R, and JavaScript) can be provided through the use of a language server.
 
 - `jupyterlab-lsp = "^5.1.0"` [[repo](https://github.com/jupyter-lsp/jupyterlab-lsp)]: language server protocol extension, can be used to add in code completion hints provided by a language server; *note that as it stands, this extension is essentially redundant as no language server is installed by default in the environment;*
 

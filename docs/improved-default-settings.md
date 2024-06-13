@@ -1,6 +1,6 @@
 # Improved Default Settings
 
-The default JupyterLab environment inccludes "core" extensions that have their own settings.
+The default JupyterLab environment includes "core" extensions that have their own settings.
 
 In some cases, these settings may be sub-optimal.
 
