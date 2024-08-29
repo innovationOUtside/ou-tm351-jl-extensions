@@ -4,6 +4,7 @@ parts:
 - caption: Extensions
   chapters:
   - file: user-interface-support
+  - file: accessibility-features
   - file: file-handling-support
   - file: programming-and-coding-support
 - caption: Settings
