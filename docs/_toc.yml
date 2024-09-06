@@ -15,6 +15,9 @@ parts:
   - file: settings-toc
   - file: settings-skip-traceback
   - file: settings-execute-time
+- caption: Notebook Style Guide
+  chapters:
+  - file: exercises
 - caption: Development / Advanced
   chapters:
   - file: accessing-vce-as-root

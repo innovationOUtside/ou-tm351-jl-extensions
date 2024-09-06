@@ -12,7 +12,7 @@ Accessibility is good for everyone. Several tools are included in the extension 
 
 ## Additional tools offering audio support
 
-Although not part of the extension pack, installing the [`ou-logger`](https://github.com/innovationOUtside/ou-logger-py/) Pyhton package into a Jupyter Python kernel provides support for audible and visual logging messages.
+Although not part of the extension pack, installing the [`ou-logger`](https://github.com/innovationOUtside/ou-logger-py/) Python package into a Jupyter Python kernel provides support for audible and visual logging messages.
 
 These messages can be used to informally track progress of code execution by reporting waypoints, variable values, etc.
 

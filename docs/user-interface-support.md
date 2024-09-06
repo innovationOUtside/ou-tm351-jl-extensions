@@ -33,7 +33,7 @@ A wide variety of third party themes are also available: [JupyterLab themes](htt
 
 ![JupyterLab cell status, show cell margin indicator: blue (queied), green (success), pink (error)](images/jupyterlab-cell-status.png)
 
-- `jupyterlab-empinken-extension = "^0.5.0"`[[repo](https://github.com/innovationOUtside/jupyterlab_empinken_extension)]: adds the ability to colour the cell background using configurable cell tags; also provides optional toolbar buttons for tagging selected cells appropriately; 
+- `jupyterlab-empinken-extension = "^0.6.0"`[[repo](https://github.com/innovationOUtside/jupyterlab_empinken_extension)]: adds the ability to colour the cell background using configurable cell tags; also provides optional toolbar buttons for tagging selected cells appropriately; 
 
 ![JupyterLab empinken - showing toolbar buttons and coloured cell backgrounds on tagged cells](images/jupyterlab-empinken.png)
 
