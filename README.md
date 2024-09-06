@@ -1,6 +1,6 @@
 # ou-tm351-jl-extensions
 
-Install from pypi as `ou-tm351-jl-extensions`
+Install from pypi as: `pip install ou-tm351-jl-extensions`
 
 - JupyterLab 3: v0.1.2
 - JupyterLab 4: v 0.2.0
