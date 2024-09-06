@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Settings - skip-traceback &#8212; OU TM351 JupyterLab Customisation</title>
+    <title>Exercises &#8212; OU TM351 JupyterLab Customisation</title>
   
   
   
@@ -57,11 +57,11 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'settings-skip-traceback';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'exercises';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Execute time" href="settings-execute-time.html" />
-    <link rel="prev" title="Table of Contents Settings" href="settings-toc.html" />
+    <link rel="next" title="Accessing an OU VCE as root" href="accessing-vce-as-root.html" />
+    <link rel="prev" title="Execute time" href="settings-execute-time.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -181,17 +181,17 @@
 <li class="toctree-l1"><a class="reference internal" href="programming-and-coding-support.html">Programming and Coding Support</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Settings</span></p>
-<ul class="current nav bd-sidenav">
+<ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="improved-default-settings.html">Improved Default Settings</a></li>
 <li class="toctree-l1"><a class="reference internal" href="settings-apputils.html">JuptyterLab App settings</a></li>
 <li class="toctree-l1"><a class="reference internal" href="settings-codemirror.html">Editor (markdown and code editors, CodeMirror, etc.) settings</a></li>
 <li class="toctree-l1"><a class="reference internal" href="settings-toc.html">Table of Contents Settings</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Settings - skip-traceback</a></li>
+<li class="toctree-l1"><a class="reference internal" href="settings-skip-traceback.html">Settings - skip-traceback</a></li>
 <li class="toctree-l1"><a class="reference internal" href="settings-execute-time.html">Execute time</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Notebook Style Guide</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="exercises.html">Exercises</a></li>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Exercises</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Development / Advanced</span></p>
 <ul class="nav bd-sidenav">
@@ -322,7 +322,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -333,11 +335,19 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Settings - skip-traceback</h1>
+    <h1>Exercises</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#automatically-collapsing-answer-cells-when-distributing-notebooks">Automatically Collapsing Answer Cells When Distributing Notebooks</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -347,16 +357,36 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="settings-skip-traceback">
-<h1>Settings - skip-traceback<a class="headerlink" href="#settings-skip-traceback" title="Link to this heading">#</a></h1>
-<p>Despite its name, the <code class="docutils literal notranslate"><span class="pre">jupyterlab-skip-traceback</span></code> disables the useful “collapse error message” setting in its defaults.</p>
-<p>To enable the collapsed view by default, use the following setting in <code class="docutils literal notranslate"><span class="pre">.jupyter/lab/user-settings/jupyterlab-skip-traceback/settings-jupyterlab-settings</span></code>:</p>
-<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;enabled&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;collapsed&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span>
-<span class="p">}</span>
-</pre></div>
-</div>
+  <section class="tex2jax_ignore mathjax_ignore" id="exercises">
+<h1>Exercises<a class="headerlink" href="#exercises" title="Link to this heading">#</a></h1>
+<p>The TIM351 notebooks manages notebooks in the following ways:</p>
+<ul class="simple">
+<li><p>colour styling of notebooks using the <a class="reference external" href="https://innovationoutside.github.io/ou-tm351-jl-extensions/user-interface-support.html#notebook-cell-tools"><code class="docutils literal notranslate"><span class="pre">jupyterlab-empinken-extension</span></code></a></p></li>
+<li><p>folded / hidden answers.</p></li>
+</ul>
+<p>The notebooks are style using the blue / <code class="docutils literal notranslate"><span class="pre">Activity</span></code> colouring to mimic activity styling in the VLE. “Call-to-action” cells, where students are expected to make some changes to the cell, are highlighted using the yellow / <code class="docutils literal notranslate"><span class="pre">Learner</span></code> styling;</p>
+<p><img alt="Jupyter notebook showing blue activity cells and yellow call to action cells" src="_images/exercise-folded.png" /></p>
+<p>Answers are collapsed using the in-built “collapsible headings” feature of JupyterLab/notebook v7 notebooks. (Cells with metadata <code class="docutils literal notranslate"><span class="pre">&quot;jp-MarkdownHeadingCollapsed&quot;:</span> <span class="pre">true</span></code> and that start with a heading are automatically collapsed.)</p>
+<p>Selecting a markdown cell that starts with a header will show a collapsed/uncollapsed indicator. Click it to collapse / uncollapse the cell. A collapsed header will collapse all the cells below until the next heading of the same level.</p>
+<p>In the TM351 notebooks, when working in a subsection (heading level 2), we use headers typically at level 3 (<code class="docutils literal notranslate"><span class="pre">###</span> <span class="pre">Activity</span> <span class="pre">N</span></code>) for the activity and level 4 (<code class="docutils literal notranslate"><span class="pre">####</span> <span class="pre">Answer</span></code>) for the answer.</p>
+<p><img alt="Collapsed and uncollapsed headers" src="_images/collapsed-uncollapsed-header.png" /></p>
+<p>You can also uncollapse the cell by clickng the <code class="docutils literal notranslate"><span class="pre">+</span> <span class="pre">N</span> <span class="pre">cells</span> <span class="pre">hidden</span></code> button.</p>
+<p><em>The cell immediately following the end of the set of cells you want to be collapsed, e.g. cells under a level 4 <strong>must</strong> start with a header of at least the same level as the answer heading.</em></p>
+<p>Collapsed cells can optionally be synchronised across the table of contents widget and the notebook via the <em>Table of Contents</em> settings from the <code class="docutils literal notranslate"><span class="pre">Settings</span> <span class="pre">&gt;</span> <span class="pre">Settings</span> <span class="pre">Editor</span></code> menu.</p>
+<p><img alt="Table of contents setting from Settings &gt; Settings Editor menu, showing Synchornize collapse state checkbox" src="_images/settings_toc_synch.png" /></p>
+<section id="automatically-collapsing-answer-cells-when-distributing-notebooks">
+<h2>Automatically Collapsing Answer Cells When Distributing Notebooks<a class="headerlink" href="#automatically-collapsing-answer-cells-when-distributing-notebooks" title="Link to this heading">#</a></h2>
+<p>The <code class="docutils literal notranslate"><span class="pre">tm351_nb_utils</span></code> Python package includes a command line tool (<a class="reference external" href="https://github.com/innovationOUtside/nb_workflow_tools/?tab=readme-ov-file#ensure-activity-answer-cells-are-collapsed"><code class="docutils literal notranslate"><span class="pre">nb_collapse_activities</span></code></a>) that will automatically collapse activity solutions in notebook files according to the heuristics:</p>
+<ul class="simple">
+<li><p>is the cell styled as an empinke activity (i.e. does it have the <code class="docutils literal notranslate"><span class="pre">style-activity</span></code> cell tag set); and</p>
+<ul>
+<li><p>does the heading start with <code class="docutils literal notranslate"><span class="pre">Our</span> <span class="pre">solution</span></code> or <code class="docutils literal notranslate"><span class="pre">Answer</span></code>;</p></li>
+</ul>
+</li>
+</ul>
+<p>The tool acts by adding <code class="docutils literal notranslate"><span class="pre">&quot;jp-MarkdownHeadingCollapsed&quot;:</span> <span class="pre">true</span></code> to cell metadata.</p>
+<p>Note: the <code class="docutils literal notranslate"><span class="pre">tm351_nb_utils</span></code> package includes several other tools for managing notebook quality.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -390,20 +420,20 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="settings-toc.html"
+       href="settings-execute-time.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Table of Contents Settings</p>
+        <p class="prev-next-title">Execute time</p>
       </div>
     </a>
     <a class="right-next"
-       href="settings-execute-time.html"
+       href="accessing-vce-as-root.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Execute time</p>
+        <p class="prev-next-title">Accessing an OU VCE as <code class="docutils literal notranslate"><span class="pre">root</span></code></p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -413,6 +443,21 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#automatically-collapsing-answer-cells-when-distributing-notebooks">Automatically Collapsing Answer Cells When Distributing Notebooks</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
