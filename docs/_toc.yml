@@ -10,6 +10,7 @@ parts:
 - caption: Settings
   chapters:
   - file: improved-default-settings
+  - file: settings-jupyter-menus
   - file: settings-apputils
   - file: settings-codemirror
   - file: settings-toc
