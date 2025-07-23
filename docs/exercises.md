@@ -6,7 +6,7 @@ The TIM351 notebooks manages notebooks in the following ways:
 
 - folded / hidden answers.
 
-The notebooks are style using the blue / `Activity` colouring to mimic activity styling in the VLE. "Call-to-action" cells, where students are expected to make some changes to the cell, are highlighted using the yellow / `Learner` styling;
+The notebooks are styled using the blue / `Activity` colouring to mimic activity styling in the VLE. "Call-to-action" cells, where students are expected to make some changes to the cell, are highlighted using the yellow / `Learner` styling;
 
 ![Jupyter notebook showing blue activity cells and yellow call to action cells](images/exercise-folded.png)
 
